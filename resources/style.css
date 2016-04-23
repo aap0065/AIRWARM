@@ -1,0 +1,27 @@
+a, a:hover{
+    text-decoration: none;
+    color:white;
+}
+#logo{
+    margin-top: -10px;
+}
+/*
+#foot {
+    background-color: black;
+    color: #FFF;
+    height:100px;
+    width: 100%;
+    position: absolute;
+    bottom:0%;
+    margin-bottom:0px;
+}
+#foot_div{
+    padding:10px;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    color: #FFF;
+    position: relative;
+}
+*/
