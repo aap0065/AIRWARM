@@ -5,6 +5,43 @@ a, a:hover{
 #logo{
     margin-top: -10px;
 }
+
+.alerta_todo {
+    background-color: #EE6539;
+    position: relative;
+    border-radius: 7px;
+    padding: 7px;
+    margin-bottom: 25px;
+    overflow: hidden;
+
+}
+
+#alerta {
+    float: left;
+    width: 97%;
+    padding-top: 3px;
+}
+
+#div_close_icon {
+    position: relative;
+    width: 3%;
+    float: left;
+}
+
+#close_icon{
+    position: relative;
+}
+
+.div_footer{
+    background-color: #EE6539;
+}
+
+/*
+#alerta, #div_close_icon
+{
+    display:inline;
+}
+*/
 /*
 #foot {
     background-color: black;
