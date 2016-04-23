@@ -4,6 +4,7 @@
 <?php include 'nav.html' ?>
 <div class="container">
     <div class="jumbotron">
+        <form action="conexion.php" method="post">
             <h1> Registrarse </h1>
             <p>
                 <label for="usernamesignup" class="uname" data-icon="u">Nombre de usuario</label>
@@ -22,12 +23,12 @@
                 <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="contraseña"/>
             </p>
             <h3>Seleccione sus enfermedades respiratorias</h3>
-            <input type="checkbox" name="dias" value="l" />Alergia al polen<br />
-            <input type="checkbox" name="dias" value="m" />Alergia a los hongos ambientales<br />
-            <input type="checkbox" name="dias" value="mm" />Asma<br />
-            <input type="checkbox" name="dias" value="j" />Intoxicación por contaminaci&oacuten <br />
+            <input type="checkbox" name="polem" value="l" />Alergia al polen<br />
+            <input type="checkbox" name="hongos" value="m" />Alergia a los hongos ambientales<br />
+            <input type="checkbox" name="asma" value="mm" />Asma<br />
+            <input type="checkbox" name="contam" value="j" />Intoxicación por contaminación <br />
             <p class="signin button">
-                <input type="submit" value="Aceptar"/>
+                <input type="submit" value="Aceptar" />
             </p>
             <p class="change_link">
                 &iquest;Ya eres miembro?
