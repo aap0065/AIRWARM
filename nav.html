@@ -3,16 +3,16 @@
     <head>
         <script>
             function activar(){
-                if(window.location.pathname=="/AIRWARM-master/index.php"){
+                if(window.location.pathname.split('/')[2]=="index.php"){
                     document.getElementById("index").setAttribute("class","active");
                 }
-                if(window.location.pathname=="/AIRWARM-master/informacion.php"){
+                if(window.location.pathname.split('/')[2]=="informacion.php"){
                     document.getElementById("informacion").setAttribute("class","active");
                 }
-                if(window.location.pathname=="/AIRWARM-master/sintomas.php"){
+                if(window.location.pathname.split('/')[2]=="sintomas.php"){
                     document.getElementById("sintomas").setAttribute("class","active");
                 }
-                if(window.location.pathname=="/AIRWARM-master/about.php"){
+                if(window.location.pathname.split('/')[2]=="about.php"){
                     document.getElementById("about").setAttribute("class","active");
                 }
             }
