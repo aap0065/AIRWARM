@@ -9,11 +9,12 @@
         /**
          * @var Mysqli $mysqli
          */
-
         $mysqli = new mysqli('localhost', 'root', '', 'airwarm');
 
         if ($mysqli->connect_error) {
             die('Error de Conexión ('.$mysqli->connect_errno.') '.$mysqli->connect_error);
+            $mysqli->rollback();
+            header('Location: loginFail.php');
         }
 
 
@@ -32,19 +33,84 @@
             if ($mysqli->query($sql) === TRUE) {
                 echo "Nuevo usuario introducido con exito.";
             } else {
-                echo "Error: " . $sql . "<br>" . $mysqli->error;
+                $mysqli->rollback();
+                header('Location: loginFail.php');
             }
+
+            $resultado = $mysqli->query('select idUsuario from usuarios where username = "'.$username.'"');
+            $idUser = $resultado->fetch_all()[0][0];
+
+
+            //////////////
+            // ALERGIAS //
+            //////////////
+
+            //Para el polem
+            if (isset($_POST['polem'])){
+                $resultado = $mysqli->query('select idAlergia from alergias where Nombre = "polem"');
+                $idPolem = $resultado->fetch_all()[0][0];
+
+                $sql = 'insert into alergiausuario (idUsuario, idAlergia) VALUES("'.$idUser.'","'.$idPolem.'")';
+                if ($mysqli->query($sql) === TRUE) {
+                    echo "Alergia con exito.";
+                } else {
+                    $mysqli->rollback();
+                    header('Location: loginFail.php');
+                }
+                $resultado->close();
+            }
+
+            //para los hongos
+            if (isset($_POST['hongos'])){
+                $resultado = $mysqli->query('select idAlergia from alergias where Nombre = "hongos"');
+                $idHongos = $resultado->fetch_all()[0][0];
+
+                $sql = 'insert into alergiausuario (idUsuario, idAlergia) VALUES("'.$idUser.'","'.$idHongos.'")';
+                if ($mysqli->query($sql) === TRUE) {
+                    echo "Alergia con exito.";
+                } else {
+                    $mysqli->rollback();
+                    header('Location: loginFail.php');
+                }
+                $resultado->close();
+            }
+
+            //Asma
+            if (isset($_POST['asma'])){
+                $resultado = $mysqli->query('select idAlergia from alergias where Nombre = "asma"');
+                $idAsma = $resultado->fetch_all()[0][0];
+
+                $sql = 'insert into alergiausuario (idUsuario, idAlergia) VALUES("'.$idUser.'","'.$idAsma.'")';
+                if ($mysqli->query($sql) === TRUE) {
+                    echo "Alergia con exito.";
+                } else {
+                    $mysqli->rollback();
+                    header('Location: loginFail.php');
+                }
+                $resultado->close();
+            }
+
+            //Contamina
+            if(isset($_POST['contam'])){
+                $resultado = $mysqli->query('select idAlergia from alergias where Nombre = "contaminacion"');
+                $idCont = $resultado->fetch_all()[0][0];
+
+                $sql = 'insert into alergiausuario (idUsuario, idAlergia) VALUES("'.$idUser.'","'.$idCont.'")';
+                if ($mysqli->query($sql) === TRUE) {
+                    echo "Alergia con exito.";
+                } else {
+                    $mysqli->rollback();
+                    header('Location: loginFail.php');
+                }
+                $resultado->close();
+            }
+            header('Location: index.php');
+
         } else {
-            echo "Error, las contraseñas no coinciden";
+            header('Location: loginFail.php');
+            $mysqli->rollback();
         }
 
-        if()
-        $polem = $_POST['polem'];
-        $hongos = $_POST['hongos'];
-        $asma = $_POST['asma'];
-        $contam = $_POST['contam'];
-
-        echo $polem;
 
 
         $mysqli->close();

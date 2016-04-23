@@ -23,10 +23,10 @@
                 <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="contraseña"/>
             </p>
             <h3>Seleccione sus enfermedades respiratorias</h3>
-            <input type="checkbox" name="polem" value="l" />Alergia al polen<br />
-            <input type="checkbox" name="hongos" value="m" />Alergia a los hongos ambientales<br />
-            <input type="checkbox" name="asma" value="mm" />Asma<br />
-            <input type="checkbox" name="contam" value="j" />Intoxicación por contaminación <br />
+            <input type="checkbox" name="polem" value="1" />Alergia al polen<br />
+            <input type="checkbox" name="hongos" value="1" />Alergia a los hongos ambientales<br />
+            <input type="checkbox" name="asma" value="1" />Asma<br />
+            <input type="checkbox" name="contam" value="1" />Intoxicación por contaminación <br />
             <p class="signin button">
                 <input type="submit" value="Aceptar" />
             </p>
