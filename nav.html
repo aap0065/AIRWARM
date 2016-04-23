@@ -1,5 +1,24 @@
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
+    <head>
+        <script>
+            function activar(){
+                if(window.location.pathname=="/AIRWARM-master/index.php"){
+                    document.getElementById("index").setAttribute("class","active");
+                }
+                if(window.location.pathname=="/AIRWARM-master/informacion.php"){
+                    document.getElementById("informacion").setAttribute("class","active");
+                }
+                if(window.location.pathname=="/AIRWARM-master/sintomas.php"){
+                    document.getElementById("sintomas").setAttribute("class","active");
+                }
+                if(window.location.pathname=="/AIRWARM-master/about.php"){
+                    document.getElementById("about").setAttribute("class","active");
+                }
+            }
+        </script>
+    </head>
+    <body onload="activar()">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -12,22 +31,23 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Inicio</a></li>
-                <li><a href="informacion.php">Informacion</a></li>
-                <li><a href="sintomas.php">Sintomas</a></li>
-                <li><a href="about.php">Sobre nosotros</a></li>
+                <li id="index"><a href="index.php">Inicio</a></li>
+                <li id="informacion"><a href="informacion.php">Informacion</a></li>
+                <li id="sintomas"><a href="sintomas.php">Sintomas</a></li>
+                <li id="about"><a href="about.php">Sobre nosotros</a></li>
             </ul>
 
-            <form class="navbar-form navbar-right" action="login.php" method="post">
+            <form class="navbar-form navbar-right">
                 <div class="form-group">
-                    <input type="text" name="username" class="form-control">
+                    <input type="text" placeholder="Email" class="form-control">
                 </div>
                 <div class="form-group">
-                    <input type="password" name="password" class="form-control">
+                    <input type="password" placeholder="Password" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-success">Sign in</button>
                 <div class="btn btn-success"><a href="registro.php">Registro</a></div>
             </form>
         </div><!--/.nav-collapse -->
     </div>
+    </body>
 </nav>
