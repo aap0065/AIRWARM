@@ -8,7 +8,7 @@
                 if(document.getElementById('estornudos').checked || document.getElementById('rinitis').checked || document.getElementById('dificultad').checked || document.getElementById('pielSeca').checked){
                     document.getElementById('ocultoHongos').style.display = 'block';
                 }else {
-                    if (document.getElementById('pielHinchada').checked || document.getElementById('picazonOjos').checked || document.getElementById('picazonNariz').checked || document.getElementById('picazonGarganta').checked || document.getElementById('disminucion').checked) {
+                    if (document.getElementById('pielHinchada').checked || document.getElementById('picazonOjos').checked || document.getElementById('picazonNariz').checked || document.getElementById('picazonGarganta').checked) {
                         document.getElementById('ocultoPolen').style.display = 'block';
                     } else {
                         document.getElementById('ocultoAsma').style.display = 'block';
