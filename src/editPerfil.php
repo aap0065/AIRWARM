@@ -5,7 +5,7 @@
 <?php include 'navLogin.html' ?>
 <div class="container">
     <div class="jumbotron">
-        <h1> Modificar datos</h1>
+        <h2> Modificar datos</h2>
         
         <form action="checkModPerfil.php" method="post">
 

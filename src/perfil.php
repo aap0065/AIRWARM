@@ -87,7 +87,7 @@
 <div class="container">
     <div id="contenedor" class="jumbotron">
         <div id="class_left">
-            <h1> Perfil </h1>
+            <h2> Perfil </h2>
             <br/>
             
             <p>
@@ -109,7 +109,6 @@
 
             <p class="signin button">
                 <input type="button" value="Modificar Perfil" onclick="location.href = 'editPerfil.php'" />
-
             </p>
         </div>
             <div id='map_canvas' align="right" style='width:380px; height:380px;'></div>

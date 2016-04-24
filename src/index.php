@@ -7,6 +7,7 @@
     <div class="container">
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
+          <h2>Bienvenidos</h2>
 
           <h2>Tendencia de la calidad del aire</h2>
           <div class="mapa">
