@@ -5,7 +5,7 @@
 <div class="container">
     <div class="jumbotron">
         <form>
-            <h1> Registrarse </h1>
+            <h2> Registrarse </h2>
             <p>
                 <label for="usernamesignup" class="uname" data-icon="u">Nombre de usuario</label>
                 <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder=nombreusuario />
