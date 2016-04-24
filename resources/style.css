@@ -40,6 +40,7 @@ a, a:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    margin-top:7px;
 }
 
 h1,h2,h3,h4 {
@@ -48,7 +49,6 @@ h1,h2,h3,h4 {
 }
 
 .jumbotron {
-    padding-bottom: 15px;
     padding-top: 20px;
 }
 
@@ -59,7 +59,6 @@ h1,h2,h3,h4 {
 
 .footer_section{
     position: relative;
-    width: 32%;
     background-color:white;
     float: left;
 }
