@@ -3,17 +3,15 @@
     <head>
         <script>
             function activar(){
-                if(window.location.pathname.split('/')[2]=="index.php"){
+                var pagina = window.location.pathname.split('/');
+                if(pagina[pagina.length-1]=="index.php"){
                     document.getElementById("index").setAttribute("class","active");
                 }
-                if(window.location.pathname.split('/')[2]=="informacion.php"){
+                if(pagina[pagina.length-1]=="informacion.php"){
                     document.getElementById("informacion").setAttribute("class","active");
                 }
-                if(window.location.pathname.split('/')[2]=="sintomas.php"){
+                if(pagina[pagina.length-1]=="sintomas.php"){
                     document.getElementById("sintomas").setAttribute("class","active");
-                }
-                if(window.location.pathname.split('/')[2]=="about.php"){
-                    document.getElementById("about").setAttribute("class","active");
                 }
             }
         </script>
