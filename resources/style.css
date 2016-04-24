@@ -28,7 +28,7 @@ a, a:hover{
     float: left;
 }
 
-#close_icon{
+.close_icon{
     position: relative;
 }
 
@@ -36,6 +36,38 @@ a, a:hover{
     background-color: #EE6539;
 }
 
+.holds_the_iframe{
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1,h2,h3,h4 {
+    color: #EE6539;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+#foot_div{
+    background-color: #EE6539;
+    border-radius: 6px;
+}
+
+.footer_section{
+    position: relative;
+    width: 32%;
+    background-color:white;
+    float: left;
+}
+
+.footer_line{
+    background-color: #EE6539;
+}
 /*
 #alerta, #div_close_icon
 {
