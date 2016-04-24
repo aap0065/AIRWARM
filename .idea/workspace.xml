@@ -22,12 +22,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="indexLog.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="indexLog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/indexLog.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="perfil.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/perfil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+              <folding>
+                <element signature="e#3752#3786#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/head.html" />
         <option value="$PROJECT_DIR$/src/headLogin.html" />
         <option value="$PROJECT_DIR$/resources/style.css" />
-        <option value="$PROJECT_DIR$/src/perfil.php" />
         <option value="$PROJECT_DIR$/src/editPerfil.php" />
         <option value="$PROJECT_DIR$/src/foot.html" />
         <option value="$PROJECT_DIR$/src/registro.php" />
@@ -116,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/informacion.php" />
         <option value="$PROJECT_DIR$/src/informacionLog.php" />
         <option value="$PROJECT_DIR$/src/indexLog.php" />
+        <option value="$PROJECT_DIR$/src/perfil.php" />
       </list>
     </option>
   </component>
@@ -277,12 +289,12 @@
       <workItem from="1461422795959" duration="17722000" />
       <workItem from="1461483706588" duration="2504000" />
       <workItem from="1461486721735" duration="1031000" />
-      <workItem from="1461487784151" duration="5821000" />
+      <workItem from="1461487784151" duration="6282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42432000" />
+    <option name="totallyTimeSpent" value="42893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -408,14 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/perfil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/editPerfil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -522,6 +526,16 @@
         <state relative-caret-position="374">
           <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/perfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+          <folding>
+            <element signature="e#3752#3786#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

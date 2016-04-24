@@ -96,28 +96,20 @@
             </p>
             
             <p>
-                <label for="username" class="uname" data-icon="u">Nombre de usuario: </label>
-                <input id="usernamePer" name="usernamePer" type="text" placeholder=nombreusuario />
+                <label for="username" class="uname" data-icon="u">Nombre de usuario: Juan</label>
+
             </p>
             <p>
-                <label for="emailPer" class="youmail" data-icon="e" > Email: </label>
-                <input id="emailPertext" name="emailPertext" type="email" placeholder="tuemail@dominio.com"/>
-            </p>
-            <p>
-                <label for="passwordPer" class="youpasswd" data-icon="p">Contraseña: </label>
-                <input id="passwordPertext" name="passwordPertext" type="password" placeholder="contraseña" />
+                <label for="emailPer" class="youmail" data-icon="e" > Email: Juan@ejemplo.com</label>
             </p>
 
             <h3>Enfermedades respiratorias</h3>
-            <input type="checkbox" name="polem" value="1" checked="true" />Alergia al polen<br />
-            <input type="checkbox" name="hongos" value="1" />Alergia a los hongos ambientales<br />
-            <input type="checkbox" name="asma" value="1" checked="true"/>Asma<br />
-            <input type="checkbox" name="contam" value="1" />Intoxicación por contaminación <br />
-            <br/>
+            Alergia al polen<br />
+            Alergia a los hongos ambientales<br />
 
             <p class="signin button">
                 <input type="button" value="Modificar Perfil" onclick="location.href = 'editPerfil.php'" />
-                <br/>
+
             </p>
         </div>
             <div id='map_canvas' align="right" style='width:380px; height:380px;'></div>
