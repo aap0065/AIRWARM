@@ -3,7 +3,7 @@
 <script src="../resources/myJavaScriptInformacion.js"></script>
 
 <body>
-<?php include 'nav.html' ?>
+<?php include 'navLogin.html' ?>
 <div class="container">
     <div class="jumbotron">
         <style>

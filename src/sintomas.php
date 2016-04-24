@@ -20,7 +20,7 @@
     </head>
 
 <body>
-    <?php include 'nav.html' ?>
+    <?php include 'navLogin.html' ?>
     <div class="container">
         <div class="jumbotron">
             <h3>Seleccione sus síntomas:</h3>

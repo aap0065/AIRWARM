@@ -12,7 +12,7 @@
             <h2>Alertas</h2>
             <div class="alerta_todo" id="AlertaPolem">
                 <div id="alerta">
-                    Durante los próximos <b>tres</b> días hay una alerta por <b>asma</b> en <b>Burgos</b>.
+                    Durante los próximos <b>tres</b> días hay una alerta por posible <b>asma</b> en <b>Burgos</b>.
                 </div>
                 <div id="div_close_icon">
                     <img class="close_icon" src="../images/close_icon.png" alt="Close icon">
@@ -20,7 +20,8 @@
             </div>
             <div class="alerta_todo" id="AlertaHongos">
                 <div id="alerta">
-                    Durante los próximos <b>tres</b> días hay una alerta por <b>asma</b> en <b>Burgos</b>.
+                    Durante los próximos <b>cinco</b> días hay una alerta por posible
+                    <b>Intoxicación por contaminación</b> en <b>Oporto</b>
                 </div>
                 <div id="div_close_icon">
                     <img class="close_icon" src="../images/close_icon.png" alt="Close icon">
