@@ -91,7 +91,7 @@
             <br/>
             
             <p>
-                <img src="images/blank-profile-picture.png" width="200" height="200">
+                <img src="../images/perfil.gif" width="200" height="200">
                 <br/>
             </p>
             

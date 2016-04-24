@@ -30,10 +30,6 @@
             <p class="signin button">
                 <input type="submit" value="Aceptar" />
             </p>
-            <p class="change_link">
-                &iquest;Ya eres miembro?
-                <a href="#tologin" class="to_register"> Aceder </a>
-            </p>
             </form>
     </div>
 </div>

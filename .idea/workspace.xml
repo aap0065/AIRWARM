@@ -22,21 +22,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nav.html">
+      <file leaf-file-name="navLogin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/navLogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="51" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="6" />
+            <state relative-caret-position="365">
+              <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navLogin.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/navLogin.html">
+      <file leaf-file-name="registro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/registro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/foot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -93,10 +113,15 @@
         <option value="$PROJECT_DIR$/nav.html" />
         <option value="$PROJECT_DIR$/head.html" />
         <option value="$PROJECT_DIR$/src/head.html" />
-        <option value="$PROJECT_DIR$/src/nav.html" />
         <option value="$PROJECT_DIR$/src/headLogin.html" />
         <option value="$PROJECT_DIR$/resources/style.css" />
+        <option value="$PROJECT_DIR$/src/perfil.php" />
+        <option value="$PROJECT_DIR$/src/editPerfil.php" />
+        <option value="$PROJECT_DIR$/src/nav.html" />
         <option value="$PROJECT_DIR$/src/navLogin.html" />
+        <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/registro.php" />
+        <option value="$PROJECT_DIR$/src/foot.html" />
       </list>
     </option>
   </component>
@@ -258,12 +283,12 @@
       <workItem from="1461422795959" duration="17722000" />
       <workItem from="1461483706588" duration="2504000" />
       <workItem from="1461486721735" duration="1031000" />
-      <workItem from="1461487784151" duration="2554000" />
+      <workItem from="1461487784151" duration="4489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39165000" />
+    <option name="totallyTimeSpent" value="41100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -305,9 +330,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/navbar-fixed-top/index.html" />
-    <entry file="file://$PROJECT_DIR$/navbar-fixed-top/index.html" />
-    <entry file="file://$PROJECT_DIR$/_malo/bootstrap-3.3.6/docs/examples/jumbotron/jumbotron.css" />
     <entry file="file://$PROJECT_DIR$/es.xml" />
     <entry file="file://$PROJECT_DIR$/translates/es.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -379,32 +401,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sintomas.php" />
-    <entry file="file://$PROJECT_DIR$/src/foot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/headLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="51" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -425,18 +425,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/perfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/editPerfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461436016085" expanded="true" signature="1049:1150" placeholder="insert into usuarios... " />
+            <marker date="1461436016085" expanded="true" signature="1428:1491" placeholder="select idUsu... usuarios" />
+            <marker date="1461436016085" expanded="true" signature="1746:1799" placeholder="select idAle... alergias" />
+            <marker date="1461436016085" expanded="true" signature="1886:1972" placeholder="insert into alergiausuario... " />
+            <marker date="1461436016085" expanded="true" signature="2383:2437" placeholder="select idAle... alergias" />
+            <marker date="1461436016085" expanded="true" signature="2525:2612" placeholder="insert into alergiausuario... " />
+            <marker date="1461436016085" expanded="true" signature="3010:3062" placeholder="select idAle... alergias" />
+            <marker date="1461436016085" expanded="true" signature="3148:3233" placeholder="insert into alergiausuario... " />
+            <marker date="1461436016085" expanded="true" signature="3637:3698" placeholder="select idAle... alergias" />
+            <marker date="1461436016085" expanded="true" signature="3784:3869" placeholder="insert into alergiausuario... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/navLogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="365">
+          <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/foot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>
