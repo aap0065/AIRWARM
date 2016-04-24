@@ -4,7 +4,7 @@
 <?php include 'nav.html' ?>
 <div class="container">
     <div class="jumbotron">
-        <form action="conexion.php" method="post">
+        <form <!--action="conexion.php"--> method="post">
             <h1> Registrarse </h1>
             <p>
                 <label for="usernamesignup" class="uname" data-icon="u">Nombre de usuario</label>
@@ -28,7 +28,7 @@
             <input type="checkbox" name="asma" value="1" />Asma<br />
             <input type="checkbox" name="contam" value="1" />Intoxicación por contaminación <br />
             <p class="signin button">
-                <input type="submit" value="Aceptar" />
+                <a href="indexLog.php"><input type="submit" value="Aceptar" /></a>
             </p>
             </form>
     </div>

@@ -35,8 +35,28 @@
       <file leaf-file-name="registro.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/registro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="510">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexLog.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/indexLog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -45,18 +65,8 @@
       <file leaf-file-name="foot.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/foot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -119,9 +129,10 @@
         <option value="$PROJECT_DIR$/src/editPerfil.php" />
         <option value="$PROJECT_DIR$/src/nav.html" />
         <option value="$PROJECT_DIR$/src/navLogin.html" />
-        <option value="$PROJECT_DIR$/src/index.php" />
-        <option value="$PROJECT_DIR$/src/registro.php" />
         <option value="$PROJECT_DIR$/src/foot.html" />
+        <option value="$PROJECT_DIR$/src/registro.php" />
+        <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/indexLog.php" />
       </list>
     </option>
   </component>
@@ -283,12 +294,12 @@
       <workItem from="1461422795959" duration="17722000" />
       <workItem from="1461483706588" duration="2504000" />
       <workItem from="1461486721735" duration="1031000" />
-      <workItem from="1461487784151" duration="4489000" />
+      <workItem from="1461487784151" duration="4896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41100000" />
+    <option name="totallyTimeSpent" value="41507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -330,7 +341,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/es.xml" />
     <entry file="file://$PROJECT_DIR$/translates/es.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -460,14 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/navLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -476,26 +478,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/registro.php">
+    <entry file="file://$PROJECT_DIR$/src/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/foot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nav.html">
+    <entry file="file://$PROJECT_DIR$/src/registro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="510">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indexLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>

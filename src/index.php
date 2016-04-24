@@ -8,26 +8,6 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
 
-          <div id="alertas">
-              <h2>Alertas</h2>
-              <div class="alerta_todo" id="AlertaPolem">
-                  <div id="alerta">
-                      Durante los próximos <b>tres</b> días hay una alerta por <b>asma</b> en <b>Burgos</b>.
-                  </div>
-                  <div id="div_close_icon">
-                       <img class="close_icon" src="../images/close_icon.png" alt="Close icon">
-                   </div>
-               </div>
-              <div class="alerta_todo" id="AlertaHongos">
-                  <div id="alerta">
-                      Durante los próximos <b>tres</b> días hay una alerta por <b>asma</b> en <b>Burgos</b>.
-                  </div>
-                  <div id="div_close_icon">
-                      <img class="close_icon" src="../images/close_icon.png" alt="Close icon">
-                  </div>
-              </div>
-          </div>
-
           <h2>Tendencia de la calidad del aire</h2>
           <div class="mapa">
               <select name="fecha" id="fecha">
